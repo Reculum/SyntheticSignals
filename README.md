@@ -58,7 +58,8 @@ $$\|K_s\|_{\infty} \le \frac{2}{n}$$
 ### 3. Cartoon Signal ($c$)
 * Piecewise-constant signal constructed over $n_{\text{jumps}}$ partitions.
 * Determines the required number of jumps using uniform distribution binning probability thresholds $p \ge 0.95$:
-  $$n_{\text{jumps}} = \min \left\{ j \in \mathbb{N} \; \Big| \; 1 - k \left( \frac{k-1}{k} \right )^j \ge p \right\}$$
+
+  $$n_{\text{jumps}} = \min \left\{ j \in \mathbb{N} \;\Big|\; 1 - k \left( \frac{k-1}{k} \right)^j \ge p \right\}$$
 
 ### 4. Generalized Gaussian Noise ($n$)
 * Generates zero-mean noise with shape parameter $\beta > 0$.
