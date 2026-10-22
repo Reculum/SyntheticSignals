@@ -6,7 +6,7 @@ Whether you are testing signal processing algorithms, training machine learning 
 
 ---
 
-## 📐 Mathematical Framework & Signal Model
+## Mathematical Framework & Signal Model
 
 Given a signal length $n \in \mathbb{N}$, a **discrete signal** is represented as a vector $x \in \mathbb{R}^n$ with zero-based indices $x[j]$ for $j \in \{0, \dots, n - 1\}$.
 
@@ -28,7 +28,7 @@ Where:
 
 ---
 
-## 🧮 Discrete Curvature Formulation
+## Discrete Curvature Formulation
 
 For continuous functions $f \in C^2(\mathbb{R})$, curvature is given by:
 $$K_f(x) = \frac{f''(x)}{[1 + f'(x)^2]^{3/2}}$$
@@ -41,7 +41,7 @@ $$\|K_s\|_{\infty} \le \frac{2}{n}$$
 
 ---
 
-## ✨ Component Generation Details
+## Component Generation Details
 
 ### 1. Smooth Signal ($s$)
 * Bounded by curvature constraints $\frac{1}{(n/4)^2 + 1} \le K \le \frac{2}{n}$.
@@ -69,7 +69,7 @@ $$\|K_s\|_{\infty} \le \frac{2}{n}$$
 
 ---
 
-## 🛠️ Prerequisites & Installation
+## Prerequisites & Installation
 
 ### Dependencies
 Ensure Python 3.x is installed along with the following packages:
@@ -80,7 +80,7 @@ pip install numpy scipy matplotlib
 
 ---
 
-## 🚀 Quick Start & Usage
+## Quick Start & Usage
 
 ### Basic Usage & Operator Overloading
 `signal` instances support standard arithmetic operations (`+`, `-`, `*`):
@@ -162,7 +162,7 @@ plt.show()
 
 ---
 
-## 📚 API Reference
+## API Reference
 
 ### Attributes & Basic Operations
 * `signal(n)`: Constructor for a signal of length `n`.
@@ -182,7 +182,7 @@ plt.show()
 
 ---
 
-## 👤 Author & Citation
+## Author & Citation
 
 **Federico Menegazzo**  
 * University of Bologna (Unibo)  
